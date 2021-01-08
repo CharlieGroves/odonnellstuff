@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #b8b5b5
+    background: #b8b5b5;
 }
 
 h1 {
@@ -14,8 +14,7 @@ h1 {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: #4CAF50;
     color: white;
     padding: 15px 32px;
     text-align: center;
