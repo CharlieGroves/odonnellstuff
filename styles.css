@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    display: flex;
+    display: grid;
     justify-content: center;
     font-weight: bolder;
     font-size: xx-large;
@@ -29,15 +29,18 @@ button {
     box-shadow: 9px 9px rgb(255, 255, 255);
 }
 
-.container {
-    display: flex;
+.contentContainer {
+    display: grid;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    grid-template-columns: 20rem;
+    grid-template-rows: 12rem; /*auto 80px; */
+    row-gap: 1rem;
 }
 
-@media only screen and (min-width: 400px) {
-    .container {
+@media only screen and (min-width: 500px) {
+    .contentContainer {
         background-color: black;
         margin-top: 1rem;
         margin-left: 35rem;
@@ -46,13 +49,10 @@ button {
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .container {
+@media only screen and (max-width: 500px) {
+    .contentContainer {
         background-color: black;
         margin-top: 1rem;
-       /*/
-        margin-left: 10%;
-        margin-right: 10%;/*/
         padding-bottom: 1rem;
         max-width: 100%;
     }
