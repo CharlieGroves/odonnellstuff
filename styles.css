@@ -34,12 +34,12 @@ button {
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    grid-template-columns: 20rem;
-    grid-template-rows: 12rem; /*auto 80px; */
+    grid-template-columns: 80%;
+    grid-template-rows: 13rem; /*auto 80px; */
     row-gap: 1rem;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     .contentContainer {
         background-color: black;
         margin-top: 1rem;
@@ -49,13 +49,19 @@ button {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .contentContainer {
         background-color: black;
         margin-top: 1rem;
         padding-bottom: 1rem;
-        max-width: 100%;
+        right: 10%;
+        left: 10%;
     }
+}
+
+.contentContainerContainer {
+    display: flex;
+    justify-content: center;
 }
 
 a {
