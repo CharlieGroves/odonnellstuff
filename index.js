@@ -10,3 +10,7 @@ function idfk() {
         a = false;
     }
 }
+
+function idfk1() {
+    document.getElementById('increase').innerHTML = 'ouch'
+}

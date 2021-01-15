@@ -39,17 +39,17 @@ button {
     row-gap: 1rem;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .contentContainer {
         background-color: black;
         margin-top: 1rem;
-        margin-left: 35rem;
-        margin-right: 35rem;
+        margin-left: 30rem;
+        margin-right: 30rem;
         padding-bottom: 1rem;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .contentContainer {
         background-color: black;
         margin-top: 1rem;
